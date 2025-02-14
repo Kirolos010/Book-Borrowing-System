@@ -6,6 +6,7 @@ This is a Laravel-based Book Borrowing System. Follow these steps to set up the 
 
 - **User&Admin Registration & Login**
 - **dashboard & website**
+- **Ajax when user borrow book**
 - **UI Authentication**
 - **Book Management (CRUD)**: Create, read, update, and delete book , borrow
 - **Roles & Permissions using spatie library**
