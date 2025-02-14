@@ -7,7 +7,7 @@ This is a Laravel-based Book Borrowing System. Follow these steps to set up the 
 - **User&Admin Registration & Login**
 - **dashboard & website**
 - **Ajax when user borrow book**
-- **user can export a book details as a PDF**
+- **user can export a book details as a PDF : dompdf library**
 - **UI Authentication**
 - **Book Management (CRUD)**: Create, read, update, and delete book , borrow
 - **Roles & Permissions using spatie library**
