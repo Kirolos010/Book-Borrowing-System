@@ -57,12 +57,11 @@ Ensure you have the following installed:
     ```bash
     php artisan migrate
     ```
-6.**Run Seeder for Admins accounts and randoms books**
+5. **Run Seeder for Admins accounts and randoms books**
 
     ```bash
     php artisan db:seed
     ```
-
 7. **Install frontend dependencies using npm:**
 
     ```bash
