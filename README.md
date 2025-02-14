@@ -90,21 +90,21 @@ Ensure you have the following installed:
 ## Admin Credentials
 
 ```bash
-Super Admin  
-Email: superadmin@gmail.com  
-Password: 12345678  
-
-Admin with Create Permission  
-Email: admin_create@gmail.com  
-Password: 12345678  
-
-Admin with Update Permission  
-Email: admin_update@gmail.com  
-Password: 12345678  
-
-Admin with Delete Permission  
-Email: admin_delete@gmail.com  
-Password: 12345678  
+    Super Admin  
+        Email: superadmin@gmail.com  
+        Password: 12345678  
+    
+    Admin with Create Permission  
+        Email: admin_create@gmail.com  
+        Password: 12345678  
+    
+    Admin with Update Permission  
+        Email: admin_update@gmail.com  
+        Password: 12345678  
+    
+    Admin with Delete Permission  
+        Email: admin_delete@gmail.com  
+        Password: 12345678  
 ```
 
 Your application should now be accessible at `http://localhost:8000`.
