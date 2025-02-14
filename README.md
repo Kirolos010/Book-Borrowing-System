@@ -58,24 +58,29 @@ Ensure you have the following installed:
     ```bash
     php artisan migrate
     ```
-5. **Run Seeder for Admins accounts and randoms books**
+6. **Run Seeder for Admins accounts and randoms books**
 
     ```bash
     php artisan db:seed
     ```
-7. **Install frontend dependencies using npm:**
+7. **For generate files**
+
+    ```bash
+   php artisan storage:link  
+    ```
+8. **Install frontend dependencies using npm:**
 
     ```bash
     npm install
     ```
 
-8. **Compile frontend assets:**
+9. **Compile frontend assets:**
 
     ```bash
     npm run dev
     ```
 
-9. **Start the development server:**
+10. **Start the development server:**
 
     ```bash
     php artisan serve
