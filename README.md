@@ -86,6 +86,15 @@ Ensure you have the following installed:
     ```bash
     php artisan serve
     ```
+
+10. **Note : Emails for admins :**
+
+    ```bash
+```Super Admin
+    Email: superadmin@gmail.com
+    Password: 12345678
+```
+    ```
 ---
 
 Your application should now be accessible at `http://localhost:8000`.
