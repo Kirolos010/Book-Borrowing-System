@@ -23,7 +23,7 @@ class AdminSeeder extends Seeder
             $this->command->error('Roles or permissions not found. Please run migrations first.');
             return;
         }
-        // Create Super Admin
+        //Super Admin
         $superAdmin = Admin::firstOrCreate([
             'email' => 'superadmin@gmail.com'
         ], [
@@ -31,7 +31,7 @@ class AdminSeeder extends Seeder
             'password' => bcrypt('12345678')
         ]);
         $superAdmin->assignRole($superAdminRole);
-        // Create Admin with Create Permission
+        //Admin with Create Permission
         $adminCreate = Admin::firstOrCreate([
             'email' => 'admin_create@gmail.com'
         ], [
@@ -41,7 +41,7 @@ class AdminSeeder extends Seeder
         $adminCreate->assignRole($adminRole);
         $adminCreate->givePermissionTo($createPermission);
 
-        // Create Admin with Update Permission
+        //Admin with Update Permission
         $adminUpdate = Admin::firstOrCreate([
             'email' => 'admin_update@gmail.com'
         ], [
@@ -51,7 +51,7 @@ class AdminSeeder extends Seeder
         $adminUpdate->assignRole($adminRole);
         $adminUpdate->givePermissionTo($updatePermission);
 
-        // Create Admin with Delete Permission
+        //Admin with Delete Permission
         $adminDelete = Admin::firstOrCreate([
             'email' => 'admin_delete@gmail.com'
         ], [

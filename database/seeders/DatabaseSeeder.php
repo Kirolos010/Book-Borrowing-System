@@ -19,5 +19,6 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         \App\Models\Book::factory(50)->create(); // Creates 50 fake books
+        $this->call(AdminSeeder::class);
     }
 }
